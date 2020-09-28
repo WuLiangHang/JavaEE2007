@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/0907_web/0907_web.iml" filepath="$PROJECT_DIR$/0907_web/0907_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0907_xml/0907_xml.iml" filepath="$PROJECT_DIR$/0907_xml/0907_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0908_Servlet/0908_Servlet.iml" filepath="$PROJECT_DIR$/0908_Servlet/0908_Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0909_Servlet/0909_Servlet.iml" filepath="$PROJECT_DIR$/0909_Servlet/0909_Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0910_JSP/0910_JSP.iml" filepath="$PROJECT_DIR$/0910_JSP/0910_JSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0921_Tomcat/0921_Tomcat.iml" filepath="$PROJECT_DIR$/0921_Tomcat/0921_Tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0922_Servlet/0922_Servlet.iml" filepath="$PROJECT_DIR$/0922_Servlet/0922_Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0923_Servlet/0923_Servlet.iml" filepath="$PROJECT_DIR$/0923_Servlet/0923_Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0924_EL/0924_EL.iml" filepath="$PROJECT_DIR$/0924_EL/0924_EL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0924_web/0924_web.iml" filepath="$PROJECT_DIR$/0924_web/0924_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0925_cookie/0925_cookie.iml" filepath="$PROJECT_DIR$/0925_cookie/0925_cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0927_Session/0927_Session.iml" filepath="$PROJECT_DIR$/0927_Session/0927_Session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebank/ebank.iml" filepath="$PROJECT_DIR$/ebank/ebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenTest/mavenTest.iml" filepath="$PROJECT_DIR$/mavenTest/mavenTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/memberDB/memberDB.iml" filepath="$PROJECT_DIR$/memberDB/memberDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop/shop.iml" filepath="$PROJECT_DIR$/shop/shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop1/shop1.iml" filepath="$PROJECT_DIR$/shop1/shop1.iml" />
+    </modules>
+  </component>
+</project>

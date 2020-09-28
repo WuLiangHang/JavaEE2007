@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop1" />
+        <module name="0921_Tomcat" />
+        <module name="0907_xml" />
+        <module name="0910_JSP" />
+        <module name="memberDB" />
+        <module name="shop" />
+        <module name="mavenTest" />
+        <module name="0927_Session" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="0907_xml" target="1.8" />
+      <module name="0910_JSP" target="1.8" />
+      <module name="0921_Tomcat" target="1.8" />
+      <module name="0927_Session" target="1.8" />
+      <module name="mavenTest" target="1.8" />
+      <module name="memberDB" target="1.8" />
+      <module name="shop" target="1.8" />
+      <module name="shop1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

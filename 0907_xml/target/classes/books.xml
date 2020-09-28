@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Books>
+    <book id="SN213412341"> <!-- 描述一本书 -->
+        <author>班导</author> <!-- 描述书的作者信息 -->
+        <name>java 编程思想</name> <!-- 书名 -->
+        <price>9.9</price> <!-- 价格 -->
+    </book>
+</Books>

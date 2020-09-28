@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery的AJAX</title>
+    <script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#ajaxBtn").click(function () {
+                $.ajax({
+                    url: "http://localhost:80/0927_Session/MyServlet4",
+                    data: {action: "jQueryAjax"},
+                    type: "GET",
+                    success: function (data) {
+                        // alert("服务器返回的数据是：" + data);
+                        var jsonObj = JSON.parse(data);
+                        $("#msg").html("编号：" + jsonObj.id + " , 姓名：" + jsonObj.name + ", 年龄:" + jsonObj.age + ", 性别:" + jsonObj.sex);
+                    },
+                    dataType: "text"
+                });
+            });
+
+            // ajax--get 请求
+            $("#getBtn").click(function () {
+                $.get("http://localhost:80/0927_Session/MyServlet4", "action=jQueryGet", function (data) {
+                    var jsonObj = JSON.parse(data);
+                    $("#msg").html(" get 编号：" + jsonObj.id + " , 姓名：" + jsonObj.name);
+                }, "text");
+            });
+// ajax--post 请求
+            $("#postBtn").click(function () {
+                $.post("http://localhost:80/0927_Session/MyServlet4", "action=jQueryPost", function (data) {
+                    var jsonObj = JSON.parse(data);
+                    $("#msg").html(" get 编号：" + jsonObj.id + " , 姓名：" + jsonObj.name);
+                }, "text");
+            });
+        });
+
+    </script>
+</head>
+<body>
+<button id="ajaxBtn">jQuery ajax request</button>
+<button id="getBtn">getBtn</button>
+<button id="postBtn">postBtn</button>
+<div id="msg"></div>
+</body>
+</html>

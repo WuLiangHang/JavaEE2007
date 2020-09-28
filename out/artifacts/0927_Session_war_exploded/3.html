@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        // ajax 请求
+        $(function () {
+            $("#submit").click(function () {
+                // 把参数序列化 js字符串
+                var obj = $("#form01").serialize();
+                // console.log(obj);
+                // console.log(typeof obj);
+                $.getJSON("http://localhost:80/0927_Session/MyServlet5", "action=jQuerySerialize&" +
+                    $("#form01").serialize(), function (data) {
+                    // $("#msg").html("Serialize 编号：" + data.id + " , 姓名：" + data.name);
+                });
+            });
+        });
+
+    </script>
+</head>
+<body>
+<form id="form01">
+    用户名<input name="username" type="text"><br>
+    密码<input name="password" type="password"> <br>
+    <button type="button" id="submit">提交</button>
+</form>
+<div id="msg"></div>
+</body>
+</html>
